@@ -1,0 +1,159 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./dist/css/profile.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700;900&display=swap" rel="stylesheet">
+    <link href="https://cdn.jsdelivr.net/npm/remixicon@2.5.0/fonts/remixicon.css" rel="stylesheet">
+    <title>Profile | D'Ariels</title>
+</head>
+<body>
+    <div class="main-wrapper">
+        <header>
+            <!-- navigation -->
+            <section class="navigation">
+                <div class="container">
+                    <div class="box-navigation">
+                        <div class="box">
+                            <h1>D'Ariels</h1>
+                        </div>      
+                        <div class="box menu-navigation">
+                            <ul>
+                                <li>
+                                    <i class="ri-home-3-fill"></i>
+                                    <a href="./index.html">Home</a></li>
+                                <li>
+                                    <i class="ri-profile-fill"></i>
+                                    <a href="./profile.html">Profile</a></li>
+                                <li>
+                                    <i class="ri-building-4-fill"></i>
+                                    <a href="./hometown.html">Hometown</a></li>
+                                <li>
+                                    <i class="ri-cake-3-fill"></i>
+                                    <a href="./food.html">Food</a></li>
+                                <li>
+                                    <i class="ri-plane-line"></i>
+                                    <a href="./tourist.html">Tourist</a></li>
+                            </ul>
+                        </div>
+                        <div class="box menu-bar">
+                            <i class="ri-menu-3-fill" style="color: white"></i>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </header>
+        <!-- Profile -->
+        <section class="profile">
+            <div class="container">
+                    <div class="box">
+                    <div class="image">
+                        <img src="./image/profile.jpg" style="width: 300px;height: 300px;">
+                    </div>
+                    <div class="nama">
+                        <h1>Michael Ariel Manihuruk</h1>
+                    </div>
+                    <div class="about">
+                        I am an undergraduate student of Informatics Engineering at Sepuluh Nopember Institute of Technology
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
+
+    <!-- Education -->
+    <section class="education">
+        <div class="container">
+            <div class="box-education">
+                <div class="box">
+                    <h2>Education</h2>
+                    <div class = grid-container>
+                        <div>
+                            <h3>Informatics Engineering</h3>
+                            <p>2020 - Present</p>
+                            <p>Sepuluh Nopember Institute of Technology</p>
+                            <p>Surabaya, Indonesia</p>
+                        </div>
+                        <div>
+                            <h3>Senior High School</h3>
+                            <p>2017 - 2020</p>
+                            <p>SMA Insan Cendekia</p>
+                            <p>Sukoharjo, Indonesia</p>
+                        </div>
+                        <div>
+                            <h3>Junior High School</h3>
+                            <p>2014 - 2017</p>
+                            <p>SMP Al Azhar 14</p>
+                            <p>Semarang, Indonesia</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Organization -->
+    <section class="organization">
+        <div class="wrapper">
+            <h2>Organization</h2>
+            <ul class="flex-box">
+                <li>
+                    <div class ="foto1">
+                        <img src="./image/tdc.png" alt="Michael Ariel" style="width: 200px;height: 200px;">
+                    </div>
+                    <h4>Technopreneurship Development Centre ITS</h4>
+                    <p>Amda TDC 2020</p>
+                </li>
+                <li>
+                    <div class ="foto2">
+                        <img src="./image/schematics.jpeg" alt="Michael Ariel" style="width: 200px;height: 200px;">
+                    </div>
+                    <h4>Schematics ITS</h4>
+                    <p>event staff of schematics reeva division</p>
+                </li>
+                <li>
+                    <div class ="foto3">
+                        <img src="./image/abinara.jpeg" alt="Michael Ariel" style="width: 200px;height: 200px;">
+                    </div>
+                    <h4>Abinara-1 ITS</h4>
+                    <p>official staff</p>
+                </li>
+                <li>
+                    <div class ="foto4">
+                        <img src="./image/paryasop.png" alt="Michael Ariel" style="width: 200px;height: 200px;">
+                    </div>
+                    <h4>paryasop</h4>
+                    <p>Supporting team of 
+                        external division</p>
+                </li>
+            </ul>
+        </div>
+    </section>
+
+    <!-- Contact -->
+    <section class = contact>
+        <h2>Get in Touch</h2> <br>
+
+        <div class = sosmed>
+            <a href="https://www.linkedin.com/in/helmitaqiyudin/">LinkedIn</a> <br>
+            <a href="https://www.instagram.com/helmitaqiyudin/ ">Instagram</a> <br>
+            <a href="https://github.com/helmitaqiyudin">Github</a>
+        </div> <br>
+
+        <div class="wrapper-contact">
+            <form class="form" action=""  method="POST">
+                <input type="text" 
+                placeholder="Nama Lengkap Anda" name="nama lengkap">
+                <input type="email" placeholder="Email Anda" name="email">
+                <textarea cols="30" rows="10" placeholder="Masukkan Pesan Anda" name="pesan"></textarea>
+                <input type="submit" value="SEND">
+            </form>
+        </div>
+    </section>
+    <script src="./dist/js/index.js"></script>
+</body>
+</html>
